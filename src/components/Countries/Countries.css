@@ -1,0 +1,20 @@
+.Countries{
+    width: 45%;
+    max-width: 500px;
+    overflow: hidden;
+    border-radius: 7px;
+    height: max-content;
+
+}
+
+@media(max-width:866px){
+   .Countries{
+       width: 400px;
+   }
+}
+
+@media(max-width:600px){
+    .Countries{
+        width: 100%;
+    }
+}

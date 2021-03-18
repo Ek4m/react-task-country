@@ -1,0 +1,51 @@
+.Country{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s ease 0s;
+}
+
+.Country:hover{
+    background-color: rgb(0, 133, 185);
+}
+.Country:hover p{
+    color: white;
+}
+
+.Selected{
+    background-color: rgb(0, 46, 107) !important;
+}
+.Selected p{
+    color: white !important;
+}
+
+.Country p{
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    padding: 5px;
+}
+
+.Country button{
+    border-radius: 50px;
+    font-size: 0.5rem;
+    background: rgb(0, 77, 179);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease 0s;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 3px 1px rgba(1, 33, 43, 0.562);
+
+}
+
+.Country button:hover{
+    background-color: darkblue;
+}
+
+.Country button:focus{
+    outline: none;
+}
